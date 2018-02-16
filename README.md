@@ -1,3 +1,5 @@
+# [Better Doctor](https://github.com/ryanglenferris/better-doctor.git)
+
 #### Project for Epicodus focusing on API's using JavaScript. This application will use the [BetterDoctor](https://developer.betterdoctor.com/) API to help users find doctors in their area who can treat their medical issue.
 
 By **Ryan G Ferris**
