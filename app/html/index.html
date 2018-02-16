@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Better Doctor API</title>
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <form id="better-doctor-query" action="index.html" method="get">
+
+        <div class="form-group" id="doctor-name-input">
+          <label for="doctor-name">Doctor name</label>
+          <input type="text" class="form-control" id="doctor-name" aria-describedby="doctorName" placeholder="Doctor name">
+        </div>
+
+        <div class="form-group" id="medical-issue-input">
+          <label for="medical-issue">Medical issue</label>
+          <input type="text" class="form-control" id="medical-issue" aria-describedby="medicalIssue" placeholder="Medical issue">
+        </div>
+
+        <button type="button" class="btn btn-primary">Search</button>
+
+      </form>
+
+      <div class="">
+        <ul id="search-results">
+
+        </ul>
+      </div>
+
+    </div>
+  </body>
+
+</html>
