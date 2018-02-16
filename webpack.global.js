@@ -6,7 +6,7 @@ const webpack = require("webpack");
 module.exports = {
 	// Locations for your source code, and bundle code.
 	entry: {
-		index: './app/js/src/index.interface.js'
+		index: './app/js/src/index.js'
 	},
 	output: {
 		filename: '[name].bundle.js',

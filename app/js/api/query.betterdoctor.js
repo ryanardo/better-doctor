@@ -1,6 +1,6 @@
 const api_key = require('./../../../.env').apiKey;
 
-export let api_query = function (doctor_name, medical_issue) {
+export let queryBetterDoctor = function (doctor_name, medical_issue) {
 	return new Promise(function (resolve, reject) {
 		let request = new XMLHttpRequest();
 		let location = "37.773%2C-122.413%2C100";
