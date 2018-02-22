@@ -17,6 +17,16 @@ By **Ryan G Ferris**
 * Download and install an up to date web browser
 * Click on the following [link](https://github.com/ryanglenferris/better-doctor.git) to use the [Better Doctor](https://github.com/ryanglenferris/better-doctor.git)
 
+## API SETUP
+* Go to the [BetterDoctor](https://developer.betterdoctor.com/) website, and get your own API Key.
+* In the root directory, create a **.env** file.
+* Copy the code below into your **.env** file; and replace the **API_KEY** with the **user_key** provided by the [BeterDoctor API](https://developer.betterdoctor.com/).
+```
+exports.apiKey = "API_KEY";
+```
+
+## TERMINAL COMMANDS
+
 ### Testing
 CLI Command to execute the webpack script for testing.
 ```
@@ -33,8 +43,6 @@ CLI Command to execute the webpack script for building the production build of t
 npm run prod
 ```
 
-
-
 ## KNOWN BUGS
 
 There are currently no known bugs or issues. Please [message](mailto:ryanglenferris@gmail.com) me if you run into any and I'll do my best to fix them as quickly as possible!
@@ -45,17 +53,17 @@ Email me at [ryanglenferris@gmail.com](mailto:ryanglenferris@gmail.com) if you h
 
 ## TECHNOLOGIES USED
 
-> _Bootstrap_
-> _Chai_
-> _CSS_
-> _Git_
-> _GitHub_
-> _HTML_
-> _JavaScript_
-> _JSON_
-> _Postman_
-> _Mocha_
-> _Webpack_
+* _Bootstrap_
+* _Chai_
+* _CSS_
+* _Git_
+* _GitHub_
+* _HTML_
+* _JavaScript_
+* _JSON_
+* _Postman_
+* _Mocha_
+* _Webpack_
 
 ### LICENSE
 
